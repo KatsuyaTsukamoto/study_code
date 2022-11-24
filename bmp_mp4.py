@@ -1,6 +1,8 @@
 import sys
 import cv2
 
+#動画化
+
 # encoder(for mp4)
 fourcc = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')
 # output file name, encoder, fps, size(fit to image size)
